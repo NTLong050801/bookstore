@@ -1,0 +1,343 @@
+body {
+  overflow-x:hidden;
+}
+/* start header */
+.header { width: auto ;height: 155px; }
+.header1 { width: auto ;height: 50px;
+  margin-right: 200px; margin-left: 200px;
+  background: #EC1B23;}
+.header2 { width: auto; height: 105px;
+  margin-right: 200px; margin-left: 200px;
+   background:#ED1C24;}
+.timkiem {float: right; margin-right: 10%;}
+
+/* start header1 */
+.header1left ul{margin:0;padding:0;
+  height:25px;margin-top:15px;
+  float:left;}
+.header1left ul li{list-style:none;float:left;}
+.header1left ul li a{text-decoration:none;
+  color:#fff;padding: 0 15px;
+  font-size:16px;border-right:1px solid #641f16;
+  line-height:13px;}
+.header1left ul li a.last{border-right:0;}
+.header1left ul li a:hover{text-decoration:underline;
+   color: orange;}
+
+.header1right ul{margin:0;padding:0;
+  height:25px;margin-top:15px;
+  float:right;}
+.header1right ul li{list-style:none;float:right;}
+.header1right ul li a{text-decoration:none;
+  color:#fff;padding:0 15px;font-size:16px;
+  border-right:1px solid #641f16;
+  line-height:13px;}
+.header1right ul li a.last{border-right:0;}
+.header1right ul li a:hover{text-decoration:underline;
+  color: orange;}
+/* start header2 */
+.header2 img {width: 300px;height: 80px;
+  margin-left : 20px;margin-top: 20px;}
+.header2 button {width : 80px;height : 30px;
+   margin-right : 30px;cursor: pointer;}
+.header2 input { width: 350px; height: 30px;
+   margin-right: 0;margin-top: 40px;}
+/* start header3 */
+.header3 img { float: left;
+  margin-left: 120px;
+  margin-top: 30px;}
+  
+  
+  
+.container0 {width: auto; height: 50px;
+   margin-right: 185px; margin-left: 185px;
+    background :#F5F5F5;}
+.container0 .a h4 {text-decoration: none;}
+.container1 { width: auto ; height: 600px;
+  background :#F5F5F5; margin-right: 185px;
+   margin-left: 185px; margin-top: 20px; }
+
+.content1-left { width: 450px; height: 600px;
+  background:#F5F5F5;float: left;}
+.content1-left .img1 {width: 250px; height: 380px; 
+  margin: 100px;margin-top: 40px; float: left
+  ;margin-bottom: 20px;}
+.content1-left .img2 {width:70px ; height: 100px;
+   border: red 3px solid; 
+   float: left; margin-left: 20px;}
+.content1-lb {float: left;margin-top: 20px;
+  margin-left: 20px; }
+.img { float: left;}
+.content1-lb a i{margin-left: 20px; font-size: 30px;}
+.content1-right {float: left;width: 650px;
+   height: 600px;}
+.checked {color: red;padding: 3px;}
+.star {float: left; border-right: black 1px solid;
+  padding: 5px;}
+.star a {color: red; font-size: 15px;}
+.danhgiastar {float: left;font-size: 15px;
+  border-right: black 1px solid;
+  padding: 5px;}
+.daban {float: left;
+  font-size: 15px;padding:5px;}
+
+.danhgiastar a {padding: 5px; color: black; }
+.daban a {padding: 5px; color: black;}
+.giamgia {background: white;}
+.giamgia p {margin-top: 50px;
+  font-size: 25px; font-weight: bold;
+   color: red;}
+.content1-right p del {font-size: 15px;
+   font-weight: 100;padding: 20px; 
+   font-weight: 100; color:black;}
+.content1-right p u {font-size: 15px;
+   padding-left: 20px; color: red;}
+.content1-right p span {width: 200px;height: 20px;
+   font-size: 13px;background: red;
+   color: white;}
+.content1-right p label {color: rgb(0 0 0 / 40%);}
+.khuyenmai {color: red; border: red 1px solid;
+  width: 250px;}
+.content1-right p img { padding: 10px;}
+
+.giatri {width: 50px;border-radius: 5px ;}
+.soluong button {border-radius: 2px  }
+.addgiohang { width: 200px; height: 50px;
+   border: red solid 1px; color: red; 
+  background: rgb(208 1 27 / 8%);
+  cursor: pointer; font-size: 16px;
+  margin-top: 20px;}
+.muangay {width: 180px; height: 50px;
+  color: wheat; background: red;
+   font-size: 16px;margin-left: 20px;
+   cursor: pointer;margin-top: 20px;}
+.grid-ct1right {width: 1103px;
+   height:150px ;float: left; }
+.grid-ct1right { display: grid;
+  
+  grid-template-columns: 210px 210px 210px;   
+  grid-template-rows: 90px;
+ }
+ .container2 { width: auto ; height:140px;
+  background :#F5F5F5;
+   margin-right: 185px; margin-left: 185px;
+    margin-top: 50px; }
+ .content2-left {float: left;
+  width: 400px;height: 140px;}
+ .content2-left img {float: left;padding: 20px;
+  border-radius: 100px
+  ;border: red 1px solid; }
+ .longbookstore {float: left;
+  padding: 10px;font-size: 17px;}
+ .btnchat {margin-right: 20px;
+  font-size: 16px;color: #d0011b;
+  background-color: rgba(208,1,27,.08);
+  border-color: #d0011b;
+  margin-top: 20px; cursor: pointer;}
+  .btnxem {font-size: 16px; cursor: pointer;}
+.content2-right {float: left;
+  width: 700px; height: 140px;}
+.content2-right label  {float: left;   
+   color: rgba(0,0,0,.4);
+}
+.content2-right p {float: left; padding-right: 50px;
+  padding-top: 10px; color: red;}
+ .grid-ct1rightnd img {float: left;width: 30px ;
+  height :20px ;margin-top: 30px;
+  margin-right:10px;margin-left: 20px; }
+ .container3 { width: auto ; height:auto;background :#F5F5F5;
+   margin-right: 185px;
+    margin-left: 185px; margin-top: 50px; }
+ .content3-top {width: auto; height: auto;}
+ .content3-top h2 {padding: 20px;
+  padding-left: 50px; 
+  background-color:salmon ;}
+ .container3 p label {padding: 50px; font-weight: lighter;
+   color: rgb(0 0 0 / 40%);}
+ .gioithieu p {padding-left: 50px; 
+  font-size: 18px;line-height: 1.875rem;
+  padding-bottom: 10px;}
+ .container4 { width: auto ; height:auto;
+  background :#F5F5F5; margin-right: 185px;
+   margin-left: 185px; margin-top: 50px; }
+ .container4 h2 {padding: 20px;padding-left: 50px;
+   background-color:salmon ;}
+ .dgiastar {width: auto;height: 90px;
+   border: 1px solid #f9ede5;
+   background-color:tan;}
+ .nam {font-size: 1.875rem;color: red;}
+ .trennam {font-size: 1.125rem; color: red;}
+ .dgiastar-left {width: 200px;
+  height: 70px;text-align: center;
+  padding-top: 15px;float: left;}
+ .sao {text-align: center;}
+ .dgiastar-right {float: left;height: 70px;
+  width: 899px;padding-top: 15px;}
+ .dgiastar-right button {margin-right: 20px;
+  margin-bottom: 20px;font-size: 15px;
+   cursor: pointer;}
+ .dgiastar-right button :hover {background: red;}
+ .container5 {width: auto ; height:auto;
+  background :#F5F5F5; margin-right: 185px;
+   margin-left: 185px; margin-top: 50px;}
+ .container5 {display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: 1080px;
+  grid-template-rows:auto auto auto  ;
+  padding: 10px;}
+  .grid-content-item {display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap:10px ;
+    grid-template-columns: 170px 170px 170px 170px 170px 170px ;
+    grid-template-rows:335px   ;
+    padding: 10px;}
+    .grid-item {border:white 1px solid ;background:tan;}
+.grid-item img{float: left;width:168px;height: 175px;}    
+.grid-item ul {padding:0;}
+.grid-item ul li{list-style:none;
+  float:left;}
+.grid-item ul li a {font-size: 14px;text-decoration: none;
+  line-height:0px;color: black;}
+.grid-item ul li a h3 { color: red;
+  margin-left: 50px;line-height:0px;}
+.grid-item ul li a del { background  :red;
+  margin-left: 40px;font-size: 12px;}
+.grid-item :hover {margin-top:5px ;}
+
+content-right-bottom{ float: left;
+  width: auto;height:auto;}
+.content-right-bottom {display: grid;
+    grid-row-gap: 50px;
+    grid-column-gap:20px ;
+    grid-template-columns: 165px 165px 165px 165px 165px;
+    grid-template-rows:335px 335px 335px 335px 335px 335px  ;
+    padding: 10px;}
+.grid-item {border:white 1px solid ;background:tan;}
+.grid-item img{float: left;width:163px;height: 235px;}    
+.grid-item ul {padding:0;}
+.grid-item ul li{list-style:none;float:left;}
+.grid-item ul li a {font-size: 14px;
+  text-decoration: none;line-height:0px;
+  color: black;}
+.grid-item ul li a h3 { color: red;margin-left: 50px;
+  line-height:0px;}
+.grid-item ul li a del { background  :red;
+  margin-left: 40px;font-size: 12px;}
+.grid-item :hover {margin-top:5px ;}
+.trang { text-align: center;}
+.trang button {font-size: 20px;
+  padding: 10px; margin: 20px;border: none;
+cursor: pointer;}
+
+.footer { width: 1103px; height: 650px;
+  margin-right: 200px; margin-left: 200px;
+  border-top: 5px red solid;
+  background: #ABABAB;margin-top: 50px;}
+.grid-footer1 {width: 1103px; height:150px ;float: left; }
+.grid-footer2 {float: left;width: 1103px;
+  height: 500px;border-top: 80px white solid;}
+.grid-footer1 { display: grid;
+  
+    grid-template-columns: 350px 400px 350px;   
+    grid-template-rows: 150px;
+   }
+.grid-footer1nd img {float: left;width: 50px ;
+  height :60px ;margin-top: 40px;
+  margin-right:10px;margin-left: 20px; }
+.grid-footer1nd  h4 { margin-top: 50px;} 
+
+.grid-footer2 {display: grid;
+  grid-template-columns: 260px 220px 180px 220px 220px;
+  grid-template-rows: 420px;text-align: center;}
+.footer2-1st ul {font-size: 15px;color: black   ;}
+.footer2-1st ul li {list-style: none;}
+.footer2-1st ul li a {text-decoration: none;
+   color: black; margin-top: 10px;float: left
+   ;text-align: left;}
+.footer2-1st ul li  :hover {color: red;}
+.footer2-3st img {width: 100px; height: 100px;}
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal-img {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content-img {
+  margin: auto;
+  display: block;
+  width: 20%px;
+  max-width: 300px;
+  height: 400px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 20%;
+  max-width: 200px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content-img, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closeimg {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closeimg:hover,
+.closeimg:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }}

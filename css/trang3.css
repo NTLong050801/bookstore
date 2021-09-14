@@ -1,0 +1,135 @@
+body {
+    overflow-x:hidden;
+  }
+  /* start header */
+  .header { width: auto ;height: 155px; }
+  .header1 { width: auto ;height: 50px;
+    margin-right: 200px; margin-left: 200px;
+    background: #EC1B23;}
+  .header2 { width: auto; height: 105px;
+    margin-right: 200px; margin-left: 200px; 
+    background:#ED1C24;}
+  .timkiem {float: right; margin-right: 10%;}
+  
+  /* start header1 */
+  .header1left ul{margin:0;padding:0;
+    height:25px;margin-top:15px;
+    float:left;}
+  .header1left ul li{list-style:none;float:left;}
+  .header1left ul li a{text-decoration:none;color:#fff;
+    padding: 0 15px;font-size:16px;
+    border-right:1px solid #641f16;line-height:13px;}
+  .header1left ul li a.last{border-right:0;}
+  .header1left ul li a:hover{text-decoration:underline;
+     color: orange;}
+  
+  .header1right ul{margin:0;padding:0;
+    height:25px;margin-top:15px;
+    float:right;}
+  .header1right ul li{list-style:none;float:right;}
+  .header1right ul li a{text-decoration:none;
+    color:#fff;padding:0 15px;font-size:16px;
+    border-right:1px solid #641f16;
+    line-height:13px;}
+  .header1right ul li a.last{border-right:0;}
+  .header1right ul li a:hover{text-decoration:underline;
+    color: orange;}
+  /* start header2 */
+  .header2 img {width: 300px;height: 80px;
+    margin-left : 20px;margin-top: 20px;}
+  .header2 button {width : 80px;height : 30px;
+     margin-right : 30px;cursor: pointer;}
+  .header2 input { width: 350px; height: 30px;
+     margin-right: 0;margin-top: 40px;}
+  /* start header3 */
+  .header3 img { float: left;
+    margin-left: 120px;
+    margin-top: 30px;}
+  
+.backweb {margin-left: 185px;
+  text-decoration: underline;}    
+.content {width: auto ; height:auto;
+  background :#F5F5F5; margin-right: 185px;
+   margin-left: 185px; margin-top: 20px;} 
+.content-left {float: left;width: 180px;
+  height: 2250px;color: black;
+  background: #FFFFFF;}
+.content-right {float: left;width: 920px;}
+.danhmuc-title {width: 180px;height: 150px;
+  border-bottom: burlywood solid 2px;}
+.danhmuc-title img { margin-left: 40px; }
+.danhmuc-title  h3 {text-align: center;
+   font-weight: bold;font-size: 27px;}
+.gird-content-left {display: grid;
+  grid-template-columns: auto ; }
+.gird-left a {  float: left; padding: 20px;
+  margin-right: 0px;font-size: 15px; 
+   text-decoration: none;  color: black;} 
+.gird-content-left :hover {background: red;
+  color: white;} 
+.gird-danhmuc {display: grid;
+  grid-template-columns: auto ; }
+.gird-danhmuc-checkbox {padding: 20px;font-weight: 400;
+    color: rgba(0,0,0,.54);}
+    .gird-danhmuc p {cursor: pointer;padding: 20px;;}
+    .gird-danhmuc button {background: red; 
+      font-size: 16px ; margin-top: 15px;
+      color: white;cursor: pointer;}
+    .gird-danhmuc .saovang span {color: yellow;padding: 2px;}
+    .btnxoaall {color: white; 
+      background: red; font-size: 17px;
+      padding: 15px; margin-left: 20px;
+      margin-top:20px;margin-bottom: 50px;
+       cursor: pointer;}
+    .content-right-top { width: 1101px ; 
+      height: 100px;background: white;}
+
+.content-right-top h3 {float: left;;
+  font-size: 16px;font-weight: 200;
+  margin-top: 30px; margin-left: 50px;
+   margin-bottom: 30px;}
+.content-right-top button  {float: left;
+  width:80px ;height: 35px; 
+  border-radius: 2px #ABABAB;
+  position: relative;
+     margin-right: 50px;font-weight: bold;
+      background:orange; cursor: pointer;}
+/* .content8righttop :hover .button {display: block;background: red;} */
+.gia { float: left;
+    width: 230px;
+    height: 30px;   
+    color:black;
+    text-align: center;
+   margin-left: 10px;
+   background: white;
+   position: absolute;
+}
+
+
+
+.content-right-bottom{ float: left;
+  width: auto;height:auto;}
+.content-right-bottom {display: grid;
+    grid-row-gap: 50px;
+    grid-column-gap:20px ;
+    grid-template-columns: 165px 165px 165px 165px 165px;
+    grid-template-rows:335px 335px 335px 335px 335px 335px  ;
+    padding: 10px;}
+.grid-item {border:white 1px solid ;
+  background:tan;}
+.grid-item img{float: left;
+  width:163px;height: 235px;}    
+.grid-item ul {padding:0;}
+.grid-item ul li{list-style:none;float:left;}
+.grid-item ul li a {font-size: 14px;text-decoration: none;
+  line-height:0px;color: black;}
+.grid-item ul li a h3 { color: red;
+  margin-left: 50px;line-height:0px;}
+.grid-item ul li a del { background  :red;
+  margin-left: 40px;font-size: 12px;}
+.grid-item :hover {margin-top:5px ;}
+.trang { text-align: center;}
+.trang button {font-size: 20px;
+  padding: 10px; margin: 20px;
+  border: none;
+cursor: pointer;}
